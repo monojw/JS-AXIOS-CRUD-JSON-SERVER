@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ADD</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section>
+        <form name="form" id="department-form">
+          <div class="form-group">
+            <label for="dname">
+              학과이름
+              <span class="text-danger">*</span>
+            </label>
+            <div>
+              <input type="text" name="dname" id="dname" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="loc">학과위치</label>
+            <div>
+              <input type="text" name="loc" id="loc" />
+            </div>
+          </div>
+          <hr />
+          <div class="text-center">
+            <button type="submit">저장하기</button>
+            <button type="reset">다시작성</button>
+          </div>
+        </form>
+      </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="assets/js/add.js"></script>
+  </body>
+</html>
